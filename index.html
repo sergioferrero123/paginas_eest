@@ -1,8 +1,110 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>lo debi hacer hace 3 meses</title>
+    <title>Trabajo Práctico N°2</title>
 
+    <style>
+        @font-face {
+            font-family: 'TerrariaFont';
+            src: url('ANDYB.TTF') format('truetype');
+            font-weight: bold;
+            font-style: normal;
+        }
+
+        body {
+            font-family: 'TerrariaFont', sans-serif;
+            background-color: #f0f0f0;
+            color: #333;
+            margin: 0;
+            padding: 0;
+            /* Añadimos espacio abajo para que el contenido no tape el footer */
+            padding-bottom: 60px;
+            min-height: 100vh;
+            position: relative;
+            box-sizing: border-box;
+        }
+
+        /* 2. Estilo para el menú de navegación al inicio */
+        nav {
+            background-color: #222;
+            padding: 15px 30px;
+            text-align: left;
+        }
+
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            margin-right: 20px;
+            font-size: 1.2rem;
+        }
+
+        nav a:hover {
+            color: #32ff64;
+        }
+
+        /* 3. Contenedor para centrar todo el resto del contenido */
+        .contenido-principal {
+            text-align: center;
+            padding: 50px 20px;
+            max-width: 800px;
+            margin: 0 auto;
+        }
+
+        h1 {
+            color: #32ff64;
+            text-shadow:
+                -2px -2px 0 #000,
+                2px -2px 0 #000,
+                -2px 2px 0 #000,
+                2px 2px 0 #000,
+                3px 4px 0px rgba(0, 0, 0, 0.8);
+            font-size: 3.5rem;
+            margin-top: 20px;
+        }
+
+        /* 4. Estilo exclusivo para el pie de página */
+        footer {
+            background-color: #222;
+            color: #fff;
+            text-align: center;
+            padding: 15px 0;
+            font-size: 0.9rem;
+            position: absolute;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
 </head>
+
+<body>
+
+
+
+    <nav>
+        <a href="index.html">Inicio</a>
+        <a href="servicios.html">Servicios</a>
+        <a href="contacto.html">Contacto</a>
+    </nav>
+
+    <div class="contenido-principal">
+        <h1>Terraria</h1>
+
+
+        <section id="inicio">
+            <h2>Bienvenido al mundo de Terraria</h2>
+            <img src="img/terraria_inicio.jpg" alt=" terraria" width="800px">
+
+        </section>
+    </div>
+
+
+    <footer>
+        Este es un sitio web para la EXPOTECNICA
+    </footer>
+
+</body>
+
+</html>
